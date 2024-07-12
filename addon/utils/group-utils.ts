@@ -94,7 +94,7 @@ export function optionAtIndex(originalCollection: any, index: number): { disable
 
 export interface Group { options: any[], disabled?: boolean, groupName: string }
 function copyGroup(group: Group, suboptions: any[]): Group {
-  let groupCopy: Group = { groupName: group.groupName, options: suboptions };
+  let groupCopy: Group = { ...group, options: suboptions };
   if (group.hasOwnProperty('disabled')) {
     groupCopy.disabled = group.disabled;
   }
