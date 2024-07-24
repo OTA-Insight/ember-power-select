@@ -1,3 +1,11 @@
+# Changes by Lighthouse
+
+This fork of ember-table is used by Lighthouse where the following changes have been made:
+
+| PR                                                       | Short Description                                  |
+| -------------------------------------------------------- |--------------------------------------------------- |
+| https://github.com/OTA-Insight/ember-power-select/pull/1 | change copyGroup function to copy over all options |
+
 # ember-power-select
 
 [![CI](https://github.com/cibernox/ember-power-select/actions/workflows/ci.yml/badge.svg)](https://github.com/cibernox/ember-power-select/actions/workflows/ci.yml)
