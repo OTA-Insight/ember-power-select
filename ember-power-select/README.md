@@ -1,10 +1,11 @@
 # Changes by Lighthouse
 
-This fork of ember-table is used by Lighthouse where the following changes have been made:
+This fork is used by Lighthouse where the following changes have been made:
 
-| PR                                                       | Short Description                                  |
-| -------------------------------------------------------- |--------------------------------------------------- |
-| https://github.com/OTA-Insight/ember-power-select/pull/1 | change copyGroup function to copy over all options |
+| PR                                                       | Short Description                                        |
+| -------------------------------------------------------- |--------------------------------------------------------- |
+| https://github.com/cibernox/ember-power-select/pull/1843 | change copyGroup function to copy over all options       |
+| https://github.com/cibernox/ember-power-select/pull/1819 | Add @rootEventType argument and set mousedown as default |
 
 # ember-power-select
 
